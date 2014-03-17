@@ -6,7 +6,7 @@ pygments: true
 permalink: /blog/:year/:month/:day/:title
 exclude: [
   'Gemfile', 'Gemfile.lock', 'startup-grind-bcn.sublime-project',
-  'startup-grind-bcn.sublime-workspace', 'config', 'bundle'
+  'startup-grind-bcn.sublime-workspace', 'config', 'bundle', 'Rakefile'
 ]
 assets:
   js_compressor: uglifier
