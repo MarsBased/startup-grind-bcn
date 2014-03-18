@@ -1,13 +1,41 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home
+code: home
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="section red-bg">
+  <div class="container">
+    <div class="row main-title">
+      <div class="col-xs-8 col-xs-offset-2">
+        <h1>For entrepreneurs who love Barcelona</h1>
+        <p><a href="#">Join us in our next event!</a></p>
+      </div>
+    </div>
+    <div class="row main-explanation">
+      <div class="col-xs-6 col-xs-offset-3">
+        <div class="starred">
+          <p>A global startup community designed tu educate, inspire and connect entrepreneurs - Now in your favourite city.</p>
+          <p>Join us once a month to learn from other entrepreneurs and enjoy a different evening making friends, not contacts and helping others to create communtiy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row sponsors">
+      <div class="col-xs-8 col-xs-offset-2">
+        <h2>Startup Grind Barcelona is proudly sponsored by:</h2>
+        <div class="row">
+          <div class="col-xs-3">
+            <img src="{% asset_path marsbased.png %}" class="img-responsive" title="MarsBased" alt="MarsBased" />
+          </div>
+          <div class="col-xs-3">
+            <img src="{% asset_path itnig.png %}" class="img-responsive" title="Itnig" alt="Itnig" />
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+<div class="section white-bg">
+  <div class="container">
+  </div>
 </div>
