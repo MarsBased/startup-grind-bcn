@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style -->
     {% stylesheet application %}
-    <!-- jQuery JS -->
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <!-- jQuery JS
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> -->
     {% javascript application %}
     <!-- IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,13 +24,37 @@
     <div class="section img-bg">
       <div class="container">
         <div class="row">
+          <div class="col-xs-6 col-xs-offset-3">
+            <div class="logo">
+              <a itemprop="url" href="/" title="Logo">
+                <img itemprop="logo" src="{% asset_path logo_darkbg.png %}" class="img-responsive" title="Logo" alt="Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-2">
+            <!-- Social buttons -->
+          </div>
+        </div>
+        <div class="row">
           <div class="col-xs-10 col-xs-offset-1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel dolor justo. Duis mollis tempus semper. Quisque at adipiscing felis. Integer facilisis sapien et turpis faucibus sagittis. In in dolor et turpis eleifend feugiat. Nulla bibendum tincidunt nibh id aliquam. Nam venenatis mattis egestas. Aliquam erat orci, posuere sed enim sed, volutpat consequat nunc. Cras imperdiet pulvinar erat, tristique vulputate tellus ullamcorper et. Quisque tempus risus odio, eu dapibus lectus congue ac. Morbi id quam egestas, accumsan justo vitae, auctor urna. Phasellus iaculis, nisi a fermentum aliquam, magna libero posuere ligula, ac gravida nisi turpis eu nibh. Vivamus non blandit nisi.</p>
-            <p>Maecenas vel tempor mauris. Sed euismod ac metus id volutpat. Quisque vel pellentesque sem. Etiam porttitor mauris ac risus adipiscing aliquam. Duis accumsan egestas ante vitae ultricies. Donec quis mi consectetur, blandit magna in, tristique nibh. Pellentesque nec aliquet diam. Etiam pharetra sapien vel ante convallis, ut auctor massa ullamcorper. Proin tristique ipsum ante. Maecenas euismod, nulla eget rutrum pretium, tortor sapien suscipit purus, sed rutrum nulla lorem non leo. In sed arcu vehicula, porta justo eget, scelerisque metus. Suspendisse ut nunc nec erat tincidunt porttitor. Duis mi ligula, iaculis eget quam sed, tristique lacinia elit. Aliquam convallis quam mollis tincidunt viverra. Fusce eleifend lectus eu arcu molestie, pulvinar facilisis magna posuere. Integer vehicula rhoncus nunc ac hendrerit.</p>
-            <p>Mauris accumsan tincidunt lacus. Ut non arcu egestas velit placerat eleifend non consequat tellus. Nulla fringilla, diam ut viverra dignissim, justo lectus mollis augue, at vestibulum quam dolor at neque. Morbi lacinia ligula non purus convallis, sed ultricies neque dignissim. Aenean nec consequat nibh, lacinia pulvinar odio. Maecenas eget rhoncus metus. Pellentesque non eleifend enim, et aliquam tortor.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel dolor justo. Duis mollis tempus semper. Quisque at adipiscing felis. Integer facilisis sapien et turpis faucibus sagittis. In in dolor et turpis eleifend feugiat. Nulla bibendum tincidunt nibh id aliquam. Nam venenatis mattis egestas. Aliquam erat orci, posuere sed enim sed, volutpat consequat nunc. Cras imperdiet pulvinar erat, tristique vulputate tellus ullamcorper et. Quisque tempus risus odio, eu dapibus lectus congue ac. Morbi id quam egestas, accumsan justo vitae, auctor urna. Phasellus iaculis, nisi a fermentum aliquam, magna libero posuere ligula, ac gravida nisi turpis eu nibh. Vivamus non blandit nisi.</p>
-            <p>Maecenas vel tempor mauris. Sed euismod ac metus id volutpat. Quisque vel pellentesque sem. Etiam porttitor mauris ac risus adipiscing aliquam. Duis accumsan egestas ante vitae ultricies. Donec quis mi consectetur, blandit magna in, tristique nibh. Pellentesque nec aliquet diam. Etiam pharetra sapien vel ante convallis, ut auctor massa ullamcorper. Proin tristique ipsum ante. Maecenas euismod, nulla eget rutrum pretium, tortor sapien suscipit purus, sed rutrum nulla lorem non leo. In sed arcu vehicula, porta justo eget, scelerisque metus. Suspendisse ut nunc nec erat tincidunt porttitor. Duis mi ligula, iaculis eget quam sed, tristique lacinia elit. Aliquam convallis quam mollis tincidunt viverra. Fusce eleifend lectus eu arcu molestie, pulvinar facilisis magna posuere. Integer vehicula rhoncus nunc ac hendrerit.</p>
-            <p>Mauris accumsan tincidunt lacus. Ut non arcu egestas velit placerat eleifend non consequat tellus. Nulla fringilla, diam ut viverra dignissim, justo lectus mollis augue, at vestibulum quam dolor at neque. Morbi lacinia ligula non purus convallis, sed ultricies neque dignissim. Aenean nec consequat nibh, lacinia pulvinar odio. Maecenas eget rhoncus metus. Pellentesque non eleifend enim, et aliquam tortor.</p>
+            <nav class="navbar navbar-default" role="navigation">
+              <div class="sections">
+                <ul class="navbar-nav">
+                  <li class="{% if page.code == 'home' %}active{% endif %}">
+                    <a href="/" title="Home">Home</a>
+                  </li>
+                  <li class="{% if page.code == 'events' %}active{% endif %}">
+                    <a href="/events" title="Events">Events</a>
+                  </li>
+                  <li class="{% if page.code == 'csr' %}active{% endif %}">
+                    <a href="/csr" title="CSR">CSR</a>
+                  </li>
+                  <li class="{% if page.code == 'contact' %}active{% endif %}">
+                    <a href="/contact" title="Contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
         </div>
       </div>
