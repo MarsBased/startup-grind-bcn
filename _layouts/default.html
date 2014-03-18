@@ -109,5 +109,40 @@
         </div>
       </div>
     </div>
+    <footer id="pageFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1">
+            <nav class="navbar navbar-default" role="navigation">
+              <div class="sections">
+                <ul class="footer-nav">
+                  <li class="{% if page.code == 'home' %}active{% endif %}">
+                    <a href="/" title="Home">Home</a>
+                  </li>
+                  <li class="{% if page.code == 'events' %}active{% endif %}">
+                    <a href="/events" title="Events">Events</a>
+                  </li>
+                  <li class="{% if page.code == 'csr' %}active{% endif %}">
+                    <a href="/csr" title="CSR">CSR</a>
+                  </li>
+                  <li class="{% if page.code == 'contact' %}active{% endif %}">
+                    <a href="/contact" title="Contact">Contact</a>
+                  </li>
+                  <li class="{% if page.code == 'privacy' %}active{% endif %}">
+                    <a href="/privacy" title="Privacy Policy">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1">
+            <p>2014 © Startup Grind Barcelona. All Rights Reserved</p>
+            <p>Created by <a href="http://www.marsbased.com/" title="MarsBased">MarsBased</a> - from Mars, with love</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

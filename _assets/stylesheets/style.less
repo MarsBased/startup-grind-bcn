@@ -55,7 +55,6 @@ p, li {
   list-style-type: none;
   text-align: center;
   display: block;
-  text-align: center;
   float: none;
   margin: 0px;
   padding: 0px;
@@ -75,12 +74,63 @@ p, li {
   display: inline-block;
   font-family: titillium, helvetica, arial, sans-serif;
   font-weight: 200;
-  font-size: 2em;
+  font-size: 1.4em;
   line-height: 1em;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background: rgba(168, 31, 38, 0.8);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer */
+
+#pageFooter {
+  background-color: #222;
+  padding: 20px 0;
+  color: #bbb;
+}
+
+.navbar-default .footer-nav {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-default .footer-nav>li {
+  float: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.navbar-default .footer-nav>li>a {
+  color: #bbb;
+  display: inline-block;
+  font-family: titillium, helvetica, arial, sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+.navbar-default .footer-nav>li>a:hover, .navbar-default .footer-nav>li>a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+#pageFooter p {
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  font-size: 1em;
+}
+
+#pageFooter a {
+  color: #bbb;
+}
+
+#pageFooter a:hover {
   color: #fff;
   text-decoration: none;
 }
