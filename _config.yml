@@ -1,6 +1,6 @@
 name: "Startup Grind BCN"
 description: "Website for the Startup Grind Barcelona."
-url: "http://website.url.com"
+url: "http://www.startupgrind.cat"
 markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:month/:day/:title
