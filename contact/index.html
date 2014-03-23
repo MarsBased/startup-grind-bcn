@@ -8,23 +8,45 @@ code: contact
   <div class="container">
     <div class="row team">
       <div class="col-xs-8 col-xs-offset-2">
-        <h1>Contact</h1>
-        <img src="{% asset_path team1.png %}" class="img-responsive img-circle" alt="Team Member" title="Team Member" />
-        <img src="{% asset_path team2.png %}" class="img-responsive img-circle" alt="Team Member" title="Team Member" />
-        <img src="{% asset_path team3.png %}" class="img-responsive img-circle" alt="Team Member" title="Team Member" />
-        <img src="{% asset_path team4.png %}" class="img-responsive img-circle" alt="Team Member" title="Team Member" />
-        <p class="text-center">The Startup Grind Barcelona Team</p>
+        <h1>The Startup Grind Barcelona Team</h1>
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="{% asset_path team1.png %}" class="img-responsive" alt="Team Member" title="Team Member" />
+            <img src="{% asset_path team2.png %}" class="img-responsive" alt="Team Member" title="Team Member" />
+          </div>
+          <div class="col-xs-12 text-right">
+            <img src="{% asset_path team3.png %}" class="img-responsive" alt="Team Member" title="Team Member" />
+            <img src="{% asset_path team4.png %}" class="img-responsive" alt="Team Member" title="Team Member" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 <div class="section white-bg">
   <div class="container">
-    <div class="row team">
-      <div class="col-xs-8 col-xs-offset-2">
-        <h1>Contact</h1>
-        <img src="{% asset_path values.jpg %}" class="img-thumbnail img-responsive" alt="Core values" title="Core values" />
-        <p class="text-center">The Startup Grind Barcelona Team</p>
+    <div class="row contact">
+      <div class="col-xs-6 col-xs-offset-3">
+        <h1>Contact form</h1>
+        <form action="https://docs.google.com/forms/d/1N4uPSjstezon22C7kishGoF3G-qhl2d-3-Zb5QA7qoc/formResponse" method="POST" id="ss-form" target="_self" onsubmit="" role="form">
+          <div class="form-group">
+            <label class="ss-q-item-label" for="entry_462858508">Name</label>
+            <input type="text" name="entry.462858508" class="form-control" value="" class="ss-q-short" id="entry_462858508" dir="auto" aria-label="Name Your full name " aria-required="true" required="" title="" placeholder="Your full name">
+          </div>
+          <div class="form-group">
+            <label class="ss-q-item-label" for="entry_174205576">E-mail</label>
+            <input type="text" name="entry.174205576" class="form-control" placeholder="Your e-mail address" value="" class="ss-q-short" id="entry_174205576" dir="auto" aria-label="E-mail Your e-mail address " aria-required="true" required="" title="">
+          </div>
+          <div class="form-group">
+            <label class="ss-q-item-label" for="entry_1454061897">Comment</label>
+            <textarea name="entry.1454061897" rows="8" placeholder="Comments, questions, crazy ideas... you name it! We want to hear your opinions!" class="form-control" cols="0" class="ss-q-long" id="entry_1454061897" dir="auto" aria-label="Comment Comments, questions, crazy ideas... you name it! We want to hear your opinions! " aria-required="true" required=""></textarea>
+          </div>        
+          <input type="hidden" name="draftResponse" value="[,,&quot;2103504822050949606&quot;]">
+          <input type="hidden" name="pageHistory" value="0">
+          <input type="hidden" name="fromEmail" value="false">
+          <input type="hidden" name="fbzx" value="2103504822050949606">
+          <input type="submit" name="submit" value="Submit" class="btn btn-default btn-lg" id="ss-submit">
+        </form>        
       </div>
     </div>
   </div>
