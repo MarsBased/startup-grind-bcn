@@ -189,9 +189,17 @@ p, li {
 }
 
 .main-title p {
-  text-align: right;
+  text-align: center;
   margin-bottom: 80px;
   font-size: 1.8em;
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .main-title p {
+    text-align: right;
+  }
+
 }
 
 .starred {
@@ -212,11 +220,26 @@ p, li {
   font-size: 3.5em;
 }
 
-.video {
-  display: block;
-  margin: 60px auto 0px;
-  width: 640px;
+.what-is .video code {
+  background-color: #fff;
 }
+
+.what-is .video object {
+  margin: 0px auto;
+  width: 350px;
+  height: 200px;
+  display: block;
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .what-is .video object {
+    width: 700px;
+    height: 400px;
+  }
+
+}
+
 
 /* Error 404 */
 
@@ -259,12 +282,32 @@ p, li {
 
 /* Team */
 
-.team h1 {
+.team .left-members, .team .right-members {
+  text-align: center;
 }
 
 .team img {
   display: inline-block;
-  margin: 20px 20px;
+  margin: 20px 15px;
+  width: 40%;
+  max-width: 228px;
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .team .left-members {
+    text-align: left;
+  }
+
+  .team .right-members {
+    text-align: right;
+  }
+
+  .team img {
+    width: auto;
+    margin: 20px 20px;
+  }
+
 }
 
 .team p {
@@ -284,6 +327,21 @@ p, li {
   margin-bottom: 40px;
   text-align: center;
 }
+
+.event iframe {
+  height: 440px;
+}
+
+@media all and (min-width: @screen-sm) {
+  
+  .event iframe {
+    height: 395px;
+  }
+
+}
+
+
+
 
 
 
