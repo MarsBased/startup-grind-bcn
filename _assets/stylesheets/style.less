@@ -67,7 +67,8 @@ p, li {
 }
 
 .social-icons {
-  padding-top: 30px;
+  padding-top: 10px;
+  display: none;
 }
 
 .social-icons a:hover {
@@ -78,7 +79,43 @@ p, li {
   display: block;
   text-align: center;
   color: #fff;
-  margin: 20px 0px;
+  margin: 10px 0px;
+  font-size: 1.5em;
+}
+
+.social-icons i:first-child {
+  margin-top: 0px;
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .social-icons {
+    padding-top: 30px;
+    display: block;
+  }
+
+  .social-icons i {
+    font-size: 2.5em;
+    margin: 20px 0px;
+  }
+
+  .social-icons i:first-child {
+    margin-top: 20px;
+  }
+
+}
+
+@media all and (min-width: @screen-lg) {
+
+  .social-icons i {
+    font-size: 3em;
+    margin: 20px 0px;
+  }
+
+  .social-icons i:first-child {
+    margin-top: 20px;
+  }
+
 }
 
 .social-icons img {
@@ -104,18 +141,18 @@ p, li {
 .navbar-default .navbar-nav>li {
   float: none;
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0px 2.5px;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
   background: rgba(168, 31, 38, 0.4);
-  padding: 20px 0px;
-  width: 150px;
+  padding: 10px 0px;
+  width: 80px;
   display: inline-block;
   font-family: titillium, helvetica, arial, sans-serif;
   font-weight: 200;
-  font-size: 1.4em;
+  font-size: 1em;
   line-height: 1em;
   .transition (background ease .2s);
 }
@@ -131,6 +168,35 @@ p, li {
   color: #fff;
 }
 
+@media all and (min-width: 500px) {
+
+  .navbar-default .navbar-nav>li {
+    margin: 0px 5px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 10px 0px;
+    font-size: 1em;
+    width: 100px;
+  }
+
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .navbar-default .navbar-nav>li {
+    margin: 0px 10px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 20px 0px;
+    font-size: 1.4em;
+    width: 150px;
+  }
+
+}
+
+
 /* Footer */
 
 #pageFooter {
@@ -144,8 +210,16 @@ p, li {
   text-align: center;
   display: block;
   float: none;
-  margin: 0px;
+  margin: 0px 0px 20px;
   padding: 0px;
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .navbar-default .footer-nav {
+    margin: 0px;
+  }
+
 }
 
 .navbar-default .footer-nav>li {
