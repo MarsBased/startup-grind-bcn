@@ -70,7 +70,23 @@ p, li {
 }
 
 .section.img-bg {
-  background: image-url('bg4.png') 50% 0 fixed; 
+  background: image-url('bg_xsmall.jpg') 50% 0 fixed; 
+}
+
+@media all and (min-width: 500px) {
+
+  .section.img-bg {
+    background: image-url('bg_small.jpg') 50% 0 fixed; 
+  }
+
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .section.img-bg {
+    background: image-url('bg.jpg') 50% 0 fixed; 
+  }
+
 }
 
 .section.white-bg {
