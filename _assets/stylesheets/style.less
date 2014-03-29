@@ -19,9 +19,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 3em;
   line-height: 1.2em;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+@media all and (min-width: @screen-sm) {
+
+  h1 {
+    font-size: 5em;
+    margin-bottom: 30px;
+  }
+
 }
 
 h2 {
@@ -34,7 +43,15 @@ p, li {
 }
 
 .section {
-  padding: 80px 0px;
+  padding: 40px 0px;
+}
+
+@media all and (min-width: @screen-sm) {
+
+  .section {
+    padding: 80px 0px;
+  }
+
 }
 
 .section.red-bg {
@@ -289,6 +306,10 @@ p, li {
   margin: 80px 0px 40px;
 }
 
+.what-is {
+  display: none;
+}
+
 .what-is h1 {
   text-align: center;
   font-size: 3.5em;
@@ -306,6 +327,10 @@ p, li {
 }
 
 @media all and (min-width: @screen-sm) {
+
+  .what-is {
+    display: block;
+  }
 
   .what-is .video object {
     width: 700px;
