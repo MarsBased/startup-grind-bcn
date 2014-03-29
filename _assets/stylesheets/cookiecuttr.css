@@ -19,5 +19,5 @@
 }
 
 @media screen and (max-width: 480px) {
-.cc-cookies { position: relative; float: left; }
+.cc-cookies { position: relative; float: left; margin-bottom: 40px; }
 }
