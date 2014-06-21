@@ -5,4 +5,4 @@
 //= require modernizr
 //= require lib/underscore
 //= require lib/Eventbrite.jquery
-//= require next-event
+//= require eventbrite-integration
