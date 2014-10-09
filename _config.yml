@@ -1,5 +1,5 @@
 name: "Startup Grind BCN"
-description: "Website for the Startup Grind Barcelona."
+description: "Website for Startup Grind Barcelona."
 url: "http://www.startupgrind.cat"
 markdown: redcarpet
 pygments: true
