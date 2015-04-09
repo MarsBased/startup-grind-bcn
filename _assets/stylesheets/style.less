@@ -26,6 +26,12 @@ h1 {
   color: white;
 }
 
+img.img-thumbnail.img-thumbnail.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media all and (min-width: @screen-sm) {
 
   h1 {
@@ -336,18 +342,55 @@ p, li {
 
 .sponsors img {
   margin-bottom: 60px;
+  width: 100px;
+  float: left;
+}
+
+.sponsors img.google{
+    width: 250px;
+    max-width: 300px;
+}
+
+.sponsors img.fishmuvi{
+    width: 150px;
+    max-width: 300px;
+}
+
+.sponsors img.muns{
+  max-width: 300px;
+  width: 226px;
+}
+
+.othervideos p{
+  font-size: 2.2em;
+  text-align: center;
+  color: white;
+    a{
+    text-decoration: underline;
+    color: white;
+    }
 }
 
 @media all and (min-width: @screen-sm) {
 
   .sponsors h2 {
-    margin: 80px 0px 40px;
+    margin: 40px 0px 40px;
   }
 
   .sponsors img {
     margin-bottom: 0px;
   }
 
+}
+
+.sponsors .swapsee-logo{
+  font-family: Mob;
+  font-size: 1.8em;
+  font-weight: 100;
+  color: #fff;
+  line-height: 1em;
+  letter-spacing: .03em;
+  text-shadow: none!important;
 }
 
 .what-is {
@@ -377,8 +420,8 @@ p, li {
   }
 
   .what-is .video object {
-    width: 700px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
   }
 
 }
