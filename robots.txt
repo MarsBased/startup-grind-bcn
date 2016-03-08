@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.startupgrind.cat/sitemap.xml
+Sitemap: https://www.startupgrind.cat/sitemap.xml
