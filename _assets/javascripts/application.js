@@ -4,5 +4,3 @@
 //= require cookiecuttr/cookiecuttrcall
 //= require modernizr
 //= require lib/underscore
-//= require lib/Eventbrite.jquery
-//= require eventbrite-integration
