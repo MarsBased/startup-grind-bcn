@@ -26,6 +26,10 @@ h1 {
   color: white;
 }
 
+img {
+  max-width: 100%;
+}
+
 img.img-thumbnail.img-thumbnail.center {
   display: block;
   margin-left: auto;
@@ -336,6 +340,10 @@ p, li {
   font-size: 1.4em;
 }
 
+.sponsors .row {
+  text-align: center;
+}
+
 .sponsors h2 {
   margin: 40px 0px 40px;
 }
@@ -343,12 +351,29 @@ p, li {
 .sponsors img {
   margin-bottom: 60px;
   width: 115px;
+  max-width: 100%;
   float: left;
 }
 
-.sponsors img.google{
-    width: 250px;
-    max-width: 300px;
+.sponsors img.google {
+  width: 250px;
+  max-width: 100%;
+}
+
+.sponsors .sponsor-big {
+  display: inline-block;
+  vertical-align: middle;
+  width: 350px;
+  max-width: 100%;
+  padding: 0 50px;
+}
+
+.sponsors .sponsor-small {
+  display: inline-block;
+  vertical-align: middle;
+  width: 190px;
+  max-width: 100%;
+  padding: 0 35px;
 }
 
 .othervideos p{
@@ -368,7 +393,7 @@ p, li {
   }
 
   .sponsors img {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
 
 }
