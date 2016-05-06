@@ -8,6 +8,7 @@ exclude: [
   'Gemfile', 'Gemfile.lock', 'startup-grind-bcn.sublime-project',
   'startup-grind-bcn.sublime-workspace', 'config', 'bundle', 'Rakefile'
 ]
+environment: development
 assets:
   js_compressor: uglifier
   css_compressor: yui
