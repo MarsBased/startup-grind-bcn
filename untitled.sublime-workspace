@@ -1,0 +1,1339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fix",
+				"navbar-fixed-top"
+			],
+			[
+				"error",
+				"error_input"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "startup-grind-bcn.sublime-project",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 44 files for \"Startup Grind Barcelona Sponsors\"\n\n/Users/marina/proyectos/MarsBased/startup-grind-bcn/index.html:\n   45      <div class=\"row sponsors\">\n   46        <div class=\"col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2\">\n   47:         <h2>Startup Grind Barcelona Sponsors</h2>\n   48          <div class=\"row\">\n   49            <div class=\"sponsor-big\">\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 401,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5071,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 51.0,
+		"history":
+		[
+			"sudo apt-get install node-less",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/marina/proyectos/MarsBased/startup-grind-bcn"
+	],
+	"file_history":
+	[
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/layouts/_print.sass",
+		"/Users/marina/Downloads/_print (1).sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_print-step-preview.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_infos.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_info-model.html.erb",
+		"/Users/marina/proyectos/MarsBased/psicoac-design/source/reports/availability_per_worker.html.erb",
+		"/Users/marina/proyectos/MarsBased/psicoac-design/source/administrators/edit.html.erb",
+		"/Users/marina/proyectos/MarsBased/psicoac-design/source/workers/view.html.erb",
+		"/Users/marina/proyectos/MarsBased/psicoac-design/source/workers/edit.html.erb",
+		"/Users/marina/proyectos/MarsBased/psicoac-design/source/work-appointments/view.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/testb/_tabs.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/layouts/map_testb.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/city-testb.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_sidebar_testb.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/testb/_navbar.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_granada.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_catalog.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/layouts/_modals.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/modals/_modal-scale-design.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/modals/_add-to-cart.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/plugins/_datatables.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/filters/_filter-input.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_flexible-properties.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/print-advanced.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_print-table.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_extend-print-table.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_contracts.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/modals/_modal-contract.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_success-stories.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_reviews.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/provider.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/designs.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_catalog-item.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/my-quote-multi.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/layouts/_quotes.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_table-cart.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_filter-chips.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/testb/_map.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/city.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_barcelona.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_filters.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_map.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/modals/parking-info.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_sidebar.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/localizable/results.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_sidebar.php.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/.gitignore",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/testb/_sidebar.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/parkingkong.sublime-project",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_loading-overlay.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/vendor/bundle/ruby/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navbar.scss",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/vendor/bundle/ruby/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_variables.scss",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_navbar.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/_fixed-scroll-info.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_fixed-scroll-info.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/_detail-parking.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/partials/_details-info.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/_parking.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/detail-parking.html.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/_main.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/checkout/summary/_order-payment.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/checkout/summary.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/layouts/_checkout.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_select2.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_form.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/_variables.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/print.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/providers.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/modals/_change-unity.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_notification.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_footer.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_print.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/print-no-results.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_icon-loader.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_alert.html.erb",
+		"/Users/marina/proyectos/MarsBased/skindler2-design/source/admin/manual_transactions_view.html.erb",
+		"/Users/marina/proyectos/MarsBased/skindler2-design/source/emails/new_payment.html.erb",
+		"/Users/marina/proyectos/MarsBased/skindler2-design/source/admin/payment_request_edit.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/iplatea.sublime-project",
+		"/Users/marina/proyectos/MarsBased/skindler2-design/source/index.html.erb",
+		"/Users/marina/proyectos/MarsBased/skindler2-design/source/admin/channel_view.html.erb",
+		"/Users/marina/proyectos/MarsBased/skindler2-design/source/admin/login.html.erb",
+		"/Users/marina/proyectos/MarsBased/skindler2-design/source/layouts/secondary.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/vendor/bundle/ruby/2.0.0/gems/sass-3.4.13/test/sass/templates/mixins.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/_navbar.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/javascripts/show_scroll.js",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/_checkout.sass",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/layouts/layout.erb",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/locales/es.yml",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/javascripts/application.js",
+		"/Users/marina/proyectos/MarsBased/parkingkong-design/source/stylesheets/_home.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/javascripts/body/quotes-multi.js",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/javascripts/body/print-step.js",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/javascripts/body/dataTables.integration.js",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_pagination.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/filters/_filter-chips.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_print-advance-table.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_extend-print-advanced-table.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_result-item.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/messaging/_message-list.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/messaging.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/messaging/_message-list-message.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/_info-alert.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/checkout/_checkout-order-details.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/my-quote.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/my-order.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/bidding/_extend-quote-multi-item.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/bidding/_quote-description.html.erb",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/javascripts/body/bootstrap.focus.js",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/stylesheets/modules/_messaging.sass",
+		"/Users/marina/proyectos/MarsBased/iPlatea-design/source/partials/messaging/_chat-container.html.erb",
+		"/Users/marina/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/marina/proyectos/MarsBased/timemarket-design/source/partials/_footer.html.erb",
+		"/Users/marina/Downloads/grayscale/less/grayscale.less",
+		"/Users/marina/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Users/marina/Downloads/grayscale/css/grayscale.css",
+		"/Users/marina/Downloads/grayscale/index.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Startup Grind Barcelona Sponsors",
+			"margin-half-width",
+			"info about your model",
+			".profile",
+			"profile picture",
+			"vertical-align:top",
+			"top",
+			"First Name",
+			"first ",
+			".cs",
+			".cn",
+			"<img",
+			".filter",
+			"filter",
+			"filter-btn",
+			"filtrar",
+			"filter-btn",
+			"3d design",
+			"btn-block",
+			"input[type=\"submit\"]",
+			"input[type='submit']",
+			"input",
+			"width: 100%",
+			"<a",
+			"<button",
+			"button",
+			"filter",
+			"reservar",
+			"form",
+			"add-to-cart",
+			"modal",
+			"partial",
+			"contracts",
+			"modal",
+			"add",
+			"partial",
+			"fa-close",
+			"fa-remove",
+			"fa-times",
+			"porqué",
+			"map",
+			".distance",
+			".distance:after",
+			".distance",
+			"distance",
+			"$primary",
+			"primary",
+			"accent",
+			"container",
+			"parking-261",
+			"details",
+			"modal",
+			"filter",
+			"$navbar-inverse-border",
+			".navbar-inverse",
+			"fa-",
+			"filter-btn",
+			"spot-info",
+			"how-to-redeem",
+			"redeem-enjoy",
+			"Disfruta de tu estancia.",
+			"Parking Princesa",
+			"no-fixed",
+			"partial",
+			"$select2-color",
+			"$input-color",
+			"$input-color-placeholder",
+			"placeholder",
+			"volume",
+			"buy",
+			"<%= partial 'partials/catalog' %>",
+			"scale-design",
+			"scale model",
+			"alert",
+			"Processing model, please wait while we generate measures...",
+			"alert",
+			"discount",
+			"img",
+			"pay-request",
+			"payment",
+			"ol",
+			"+mobile",
+			".cd-breadcrumb.triangle",
+			"custom-icons",
+			"z-index: 1",
+			".cd-breadcrumb.triangle",
+			"border-top-width",
+			";",
+			"}",
+			"{",
+			";",
+			"partial",
+			"startDay",
+			"+make",
+			"nav",
+			"navbar",
+			"how to redeem",
+			"partial",
+			"acerca",
+			"bid",
+			"title",
+			"loadrow",
+			"data-row",
+			"extend",
+			"data-select-last-step",
+			"sorting",
+			"advance",
+			"bPaginate",
+			"partials/print-advance-table",
+			"partial",
+			"pagingType",
+			"pagination",
+			"footer",
+			"no-footer",
+			"datatable-footer",
+			"datatable_footer",
+			"dataTable_footer",
+			"dataTables_footer",
+			"dataTables_info",
+			"datatable-footer",
+			"print",
+			"navegation",
+			"Showing",
+			"datatable-footer",
+			"alert",
+			"partials/alert",
+			"unsplash",
+			"btn-danger"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "startup-grind-bcn.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										247,
+										248
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										268,
+										300
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2332,
+								2332
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2354,
+										2355
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2332,
+										2333
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 717.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"printsass",
+				"source/stylesheets/layouts/_print.sass"
+			],
+			[
+				"print",
+				"source/print-advanced.html.erb"
+			],
+			[
+				"infos",
+				"source/stylesheets/modules/_infos.sass"
+			],
+			[
+				"preview",
+				"source/partials/_print-step-preview.html.erb"
+			],
+			[
+				"workers_per",
+				"source/reports/workers_by_company.html.erb"
+			],
+			[
+				"avail",
+				"source/reports/available_workers.html.erb"
+			],
+			[
+				"reports",
+				"source/reports/index.html.erb"
+			],
+			[
+				"toolkit-inverse.min.scss",
+				"source/stylesheets/bootstrap/toolkit-inverse.min.scss"
+			],
+			[
+				"edit",
+				"source/workers/edit.html.erb"
+			],
+			[
+				"workersvi",
+				"source/workers/view.html.erb"
+			],
+			[
+				"work-appointmentvi",
+				"source/work-appointments/view.html.erb"
+			],
+			[
+				"users",
+				"source/stylesheets/layouts/_workers.sass"
+			],
+			[
+				"workers",
+				"source/workers/index.html.erb"
+			],
+			[
+				"payment",
+				"source/admin/payment_request_edit.html.erb"
+			],
+			[
+				"navb",
+				"source/stylesheets/testb/_navbar.sass"
+			],
+			[
+				"nav",
+				"source/partials/_navbar_testb.html.erb"
+			],
+			[
+				"sideba",
+				"source/partials/_sidebar.html.erb"
+			],
+			[
+				"results",
+				"source/localizable/results.html.erb"
+			],
+			[
+				"map_test",
+				"source/layouts/map_testb.erb"
+			],
+			[
+				"city",
+				"source/city-testb.html.erb"
+			],
+			[
+				"barcelona",
+				"source/partials/_barcelona.html.erb"
+			],
+			[
+				"tabss",
+				"source/stylesheets/testb/_tabs.sass"
+			],
+			[
+				"testbnav",
+				"source/stylesheets/testb/_navbar.sass"
+			],
+			[
+				"info",
+				"source/stylesheets/modules/_infos.sass"
+			],
+			[
+				"flexible",
+				"source/partials/_flexible-properties.html.erb"
+			],
+			[
+				"datatables",
+				"source/stylesheets/plugins/_datatables.sass"
+			],
+			[
+				"addtoca",
+				"source/partials/modals/_add-to-cart.html.erb"
+			],
+			[
+				"scal",
+				"source/partials/modals/_modal-scale-design.html.erb"
+			],
+			[
+				"filterin",
+				"source/partials/filters/_filter-input.html.erb"
+			],
+			[
+				"flexiblepo",
+				"source/partials/_flexible-properties.html.erb"
+			],
+			[
+				"sidebar",
+				"source/partials/_sidebar_testb.html.erb"
+			],
+			[
+				"quotedes",
+				"source/partials/bidding/_quote-description.html.erb"
+			],
+			[
+				"myqu",
+				"source/my-quote.erb"
+			],
+			[
+				"geta",
+				"source/get-a-quote.html.erb"
+			],
+			[
+				"scale",
+				"source/partials/modals/_modal-scale-design.html.erb"
+			],
+			[
+				"modal-con",
+				"source/partials/modals/_modal-contract.html.erb"
+			],
+			[
+				"exten",
+				"source/partials/_extend-print-table.erb"
+			],
+			[
+				"printta",
+				"source/partials/_print-table.html.erb"
+			],
+			[
+				"data",
+				"source/stylesheets/plugins/_datatables.sass"
+			],
+			[
+				"quotesass",
+				"source/stylesheets/layouts/_quotes.sass"
+			],
+			[
+				"myquotemu",
+				"source/my-quote-multi.erb"
+			],
+			[
+				"review",
+				"source/partials/_reviews.html.erb"
+			],
+			[
+				"succe",
+				"source/partials/_success-stories.html.erb"
+			],
+			[
+				"provider",
+				"source/provider.html.erb"
+			],
+			[
+				"catalogite",
+				"source/partials/_catalog-item.html.erb"
+			],
+			[
+				"catalo",
+				"source/partials/_catalog.html.erb"
+			],
+			[
+				"desgin",
+				"source/designs.html.erb"
+			],
+			[
+				"input",
+				"source/partials/filters/_filter-input.html.erb"
+			],
+			[
+				"navbar",
+				"source/partials/_navbar_testb.html.erb"
+			],
+			[
+				"testbmap",
+				"source/stylesheets/testb/_map.sass"
+			],
+			[
+				"map.html",
+				"source/partials/_map.html.erb"
+			],
+			[
+				"resul",
+				"source/localizable/results.html.erb"
+			],
+			[
+				"testbnavbar",
+				"source/stylesheets/testb/_navbar.sass"
+			],
+			[
+				"parking",
+				"source/modals/parking.html.erb"
+			],
+			[
+				"parkingin",
+				"source/modals/parking-info.html.erb"
+			],
+			[
+				"side",
+				"source/partials/_sidebar.html.erb"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"filters",
+				"source/partials/_filters.html.erb"
+			],
+			[
+				"map",
+				"source/partials/_map.html.erb"
+			],
+			[
+				"res",
+				"source/localizable/results.html.erb"
+			],
+			[
+				"_navbar.scss",
+				"vendor/bundle/ruby/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navbar.scss"
+			],
+			[
+				"variables",
+				"vendor/bundle/ruby/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"navbar_testb",
+				"source/partials/_navbar_testb.html.erb"
+			],
+			[
+				"map_testb",
+				"source/layouts/map_testb.erb"
+			],
+			[
+				"loading",
+				"source/partials/_loading-overlay.html.erb"
+			],
+			[
+				"testbside",
+				"source/stylesheets/testb/_sidebar.sass"
+			],
+			[
+				"sidebar_testb.html",
+				"source/partials/_sidebar_testb.html.erb"
+			],
+			[
+				"main",
+				"source/stylesheets/_main.sass"
+			],
+			[
+				"detail-parking",
+				"source/stylesheets/_detail-parking.sass"
+			],
+			[
+				"fixed",
+				"source/stylesheets/_fixed-scroll-info.sass"
+			],
+			[
+				"detail",
+				"source/detail-parking.html.erb"
+			],
+			[
+				"printsas",
+				"source/stylesheets/layouts/_print.sass"
+			],
+			[
+				"printad",
+				"source/print-advanced.html.erb"
+			],
+			[
+				"checkoutsass",
+				"source/stylesheets/layouts/_checkout.sass"
+			],
+			[
+				"orderpa",
+				"source/partials/checkout/summary/_order-payment.html.erb"
+			],
+			[
+				"checkoutsummary",
+				"source/checkout/summary.html.erb"
+			],
+			[
+				"catal",
+				"source/partials/_catalog.html.erb"
+			],
+			[
+				"change",
+				"source/partials/modals/_change-unity.html.erb"
+			],
+			[
+				"noti",
+				"source/stylesheets/modules/_notification.sass"
+			],
+			[
+				"modalscale",
+				"source/partials/modals/_modal-scale-design.html.erb"
+			],
+			[
+				"notifica",
+				"source/stylesheets/modules/_notification.sass"
+			],
+			[
+				"icon",
+				"source/stylesheets/modules/_icon-loader.sass"
+			],
+			[
+				"alert",
+				"source/partials/_alert.html.erb"
+			],
+			[
+				"info-mod",
+				"source/partials/_info-model.html.erb"
+			],
+			[
+				"printsteppre",
+				"source/partials/_print-step-preview.html.erb"
+			],
+			[
+				"printa",
+				"source/print-advanced.html.erb"
+			],
+			[
+				"partialprint",
+				"source/partials/_print.html.erb"
+			],
+			[
+				"new",
+				"source/emails/new_payment.html.erb"
+			],
+			[
+				"second",
+				"source/layouts/secondary.erb"
+			],
+			[
+				"adminlogin",
+				"source/admin/login.html.erb"
+			],
+			[
+				"mixin",
+				"vendor/bundle/ruby/2.0.0/gems/sass-3.4.13/test/sass/templates/mixins.sass"
+			],
+			[
+				"appli",
+				"source/stylesheets/application.sass"
+			],
+			[
+				"checkout",
+				"source/stylesheets/_checkout.sass"
+			],
+			[
+				"scroll",
+				"source/partials/_fixed-scroll-info.html.erb"
+			],
+			[
+				"home",
+				"source/stylesheets/_home.sass"
+			],
+			[
+				"layou",
+				"source/layouts/layout.erb"
+			],
+			[
+				"deatils-in",
+				"source/partials/_details-info.html.erb"
+			],
+			[
+				"_print",
+				"source/partials/_print.html.erb"
+			],
+			[
+				"extend",
+				"source/partials/_extend-print-table.erb"
+			],
+			[
+				"print-table",
+				"source/partials/_print-table.html.erb"
+			],
+			[
+				"print-step-preview",
+				"source/partials/_print-step-preview.html.erb"
+			],
+			[
+				"notifi",
+				"source/stylesheets/modules/_notification.sass"
+			],
+			[
+				"rint",
+				"source/print.html.erb"
+			],
+			[
+				"partialpr",
+				"source/partials/_print.html.erb"
+			],
+			[
+				"printadvance",
+				"source/partials/_print-advance-table.html.erb"
+			],
+			[
+				"filter-in",
+				"source/partials/filters/_filter-input.html.erb"
+			],
+			[
+				"filterchi",
+				"source/partials/filters/_filter-chips.html.erb"
+			],
+			[
+				"filter",
+				"source/stylesheets/modules/_filter-chips.sass"
+			],
+			[
+				"printadvanceta",
+				"source/partials/_print-advance-table.html.erb"
+			],
+			[
+				"infomo",
+				"source/partials/_info-model.html.erb"
+			],
+			[
+				"no",
+				"source/stylesheets/modules/_notification.sass"
+			],
+			[
+				"filter-inp",
+				"source/partials/filters/_filter-input.html.erb"
+			],
+			[
+				"messagelistmes",
+				"source/partials/messaging/_message-list-message.html.erb"
+			],
+			[
+				"messaglis",
+				"source/partials/messaging/_message-list.html.erb"
+			],
+			[
+				"messa",
+				"source/messaging.html.erb"
+			],
+			[
+				"info-mo",
+				"source/partials/_info-model.html.erb"
+			],
+			[
+				"not",
+				"source/stylesheets/modules/_notification.sass"
+			],
+			[
+				"printadv",
+				"source/print-advanced.html.erb"
+			],
+			[
+				"myquote",
+				"source/my-quote-multi.erb"
+			],
+			[
+				"checkoutde",
+				"source/partials/checkout/_checkout-order-details.html.erb"
+			],
+			[
+				"myorder",
+				"source/my-order.html.erb"
+			],
+			[
+				"myquo",
+				"source/my-quote.erb"
+			],
+			[
+				"mymult",
+				"source/my-quote-multi.erb"
+			],
+			[
+				"boot",
+				"source/javascripts/body/bootstrap.focus.js"
+			],
+			[
+				"my",
+				"source/my-quote-multi.erb"
+			],
+			[
+				"chat",
+				"source/partials/messaging/_chat-container.html.erb"
+			],
+			[
+				"messagingsass",
+				"source/stylesheets/modules/_messaging.sass"
+			],
+			[
+				"messagelis",
+				"source/partials/messaging/_message-list-message.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
